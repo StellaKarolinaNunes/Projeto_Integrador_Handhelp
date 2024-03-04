@@ -393,7 +393,7 @@ class Sintomas extends StatelessWidget {
                           print(sintoma);
                         },
                         style: ElevatedButton.styleFrom(
-                          primary: sintomasSelecionadosTemp.contains(sintoma)
+                          backgroundColor: sintomasSelecionadosTemp.contains(sintoma)
                               ? Colors.grey
                               : null,
                         ),
