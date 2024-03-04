@@ -1,5 +1,6 @@
 ### Estrutura do projeto
 
+```
 .
 ├── android                                 - contém arquivos necessários de aplicativo Android.
 ├── assets                                  - contém todas as imagens,videos e fontes.
