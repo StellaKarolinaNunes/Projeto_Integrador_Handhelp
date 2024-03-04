@@ -279,7 +279,7 @@ class _PaginaSintomasState extends State<PaginaSintomas> {
                       _sintomasSelecionadosTemp.add(sintoma);
                     },
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: _sintomasSelecionados.contains(sintoma)
+                      primary: _sintomasSelecionados.contains(sintoma)
                           ? Colors.grey
                           : null,
                     ),
