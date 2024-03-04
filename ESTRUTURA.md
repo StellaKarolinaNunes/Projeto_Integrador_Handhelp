@@ -1,33 +1,27 @@
 ### Estrutura do projeto
 
-- `lib/` Contém o código-fonte principal do aplicativo.
-
-- `/main.dart` Ponto de entrada do aplicativo, onde o widget principal (MeuApp) é iniciado.
-
-- `/screens` Telas principais do aplicativo.
-  - `/Libras.dart` Tela que exibe conteúdo relacionado à Libras.
-  - `/MeuApp.dart` Widget principal que define o tema e a tela inicial.
-  - `/pagina_inicial.dart` Tela inicial com um botão para navegar para os dados médicos.
-  - `/PaginaDadoMedicosLibras.dart` Tela para inserir dados médicos com suporte para Libras.
-  - `/PaginaDadosMedicos.dart` Tela para inserir dados médicos.
-  - `/PaginaDefinirAtendimento.dart` Tela para definir o atendimento.
-  - `/PaginaIntensidadeDor.dart` Tela para escolher a intensidade da dor.
-  - `/PaginaProfissao.dart` Tela que exibe a profissão escolhida.
-  - `/PaginaResultado.dart` Tela que exibe o resultado da triagem.
-  - `/PaginaRotina.dart` Tela para escolher a área de rotina.
-  - `/PaginaSintomas.dart` Tela para escolher sintomas e intensidade da dor.
-  - `/PaginaTriagemConcluida.dart` Tela exibida após a conclusão da triagem.
-
-- `/Widget`  Pasta que contém widgets reutilizáveis.
-  - `/CustomButton.dart` Widget de botão personalizado.
-  - `/EscolhaAtendimentoWidget.dart` Widget para a escolha entre "Rotina" e "Dor".
-  - `/flutter_tts.dart` Configuração e função para falar texto usando o pacote flutter_tts.
-
-- `/assets/` Contém ativos estáticos.
-  - `/assets/fonts/` Arquivos de fonte utilizados no aplicativo. Geralmente
-  - `assets/images/ ` Imagens usadas no aplicativo, como ícones, fundos e outros elementos visuais. 
-  - `/Vlibras/` Pasta contendo recursos relacionados à Vlibras.
-  - `/vlibras.html` Página HTML integrada para a funcionalidade Vlibras.
+.
+├── android                                 - contém arquivos necessários de aplicativo Android.
+├── assets                                  - contém todas as imagens,videos e fontes.
+├── ios                                     - contém arquivos necessários de aplicativo iOS 
+├── lib                                     - Pasta mais importante do projeto
+    ├── main.dart                           - É o ponto de partida para o aplicativo Flutter.
+    ├── Logo                                - Onde terá futuras animações na logo do app.
+    ├── screens                             - Telas principais do aplicativo.
+    │   ├── MeuApp.dart                     - Chama a Pagina_inicial contem logo e afim.
+    │   ├── pagina_inicial.dart             - Página inicial com Logo e nome app
+    │   └── PaginaIntensidadeDor.dart       - Tela para escolher a intensidade da dor.
+    │   └── PaginaProfissao.dart            - Página profissão com encaminhamento e conclusão.
+    │   └── PaginaResultado.dart            - Exibe resultado triagem para medico
+    │   └── PaginaRotina.dart               - Tela para escolher a área de rotina.
+    │   └── PaginaSintomas.dart             - Tela para escolher sintomas que sente.
+    │   └── PaginaTriagemConcluida.dart     - Tela exibida após a conclusão da triagem.
+    └── widgets                             - Pasta que contém widgets reutilizáveis.
+    │   └── CustomButton.dart               - Botão personalizado reutilizável.
+    │   └── EscolhaAtendimentoWidget.dart   - Tela para definir Rotina ou Sintomas.
+    │   └── flutter_tts.dart                - biblioteca `flutter_tts` usada para falar o texto
+    │   └── VideoPlayerScreen.dart          - reproduzir um vídeos em libras.
+```
 
 ### Como me localizar no projeto?
 
